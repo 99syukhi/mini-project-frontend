@@ -20,9 +20,8 @@ This project incorporates all HTML/CSS modules required for the assignment:
 - `blog.html` - Industry News/Specs
 - `pricing.html` - Service Tiers
 - `contact.html` - Inquiry Form
-- `/css`
--     `/main.css`
--     `/products.css`
--     `/blog.css`
--     `/pricing.css`
--     `/contact.css`
+- `/main.css` - global styling
+-  `/products.css` - product page styling
+- `/blog.css` - blog page styling
+- `/pricing.css` - pricing page styling
+- `/contact.css` - contact page styling
