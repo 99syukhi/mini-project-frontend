@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: var(--color-light);
+}
+
+main {
+    flex: 1;
+}
+
+.blog-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.8; 
+    color: var(--color-dark);
+}
+
+.brand-accent {
+    color: var(--color-primary);
+    font-weight: 700;
+    font-style: italic;
+}
+.market-table {
+    width: 100%;
+    max-width: 40rem;
+    border-collapse: collapse;
+   margin: 2rem auto;
+    background-color: var(--white);
+    box-shadow: var(--shadow);
+    border-radius: 0.5rem;
+    overflow: hidden; 
+}
+
+.market-table th {
+    background-color: var(--color-primary);
+    color: white;
+    padding: 1rem;
+}
+
+.market-table td {
+    border: 1px solid var(--color-dark);
+    padding: 0.8rem;
+    text-align: center;
+    background-color: var(--white);
+}
+
+.media-section {
+    max-width: 35rem;
+    margin: 3rem auto;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+video {
+    width: 100%;           
+    max-width: 100%;
+    border-radius: 1rem;     
+    box-shadow: var(--shadow);
+    margin-bottom: 2rem;
+    border: 2px solid var(--color-primary); 
+    background-color: var(--color-dark);   
+}
+
+audio {
+    width: 100%;
+    max-width: 20rem;       
+    margin-top: 1rem;
+    filter: sepia(20%) hue-rotate(300deg);
+}
+
+.media-section p {
+    font-size: 1rem;
+    font-style: italic;
+    color: #666;
+    margin-top: 0.5rem;
+}

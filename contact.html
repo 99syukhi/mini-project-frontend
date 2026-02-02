@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blissful Sweets | Handcrafted Treats</title>
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/css/contact.css">
+</head>
+<body>
+
+    <header id="header">
+        <img src="/img/logo.png" alt="Blissful Sweets Logo" class="logo" />
+        <nav class="nav">
+            <a class="nav-link" href="/">Home</a>
+            <a class="nav-link" href="/products.html">Products</a>
+            <a class="nav-link" href="/blog.html">Blog</a>
+            <a class="nav-link" href="/pricing.html">Pricing</a>
+            <a class="nav-link" href="/contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+     <section id="contact">
+    <h2 class="h2">Get in Touch</h2>
+    <form id="contact-form">
+        <label for="full-name">Name:</label>
+        <input type="text" id="full-name" name="full-name" placeholder="Your Name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="hello@example.com" required>
+
+        <label for="Phone">Phone:</label>
+        <input type="phone" id="phone" name="phone" placeholder="(+597) xxx-xxxx" required>
+
+
+        <label for="event-date">Pickup Date:</label>
+        <input type="date" id="event-date" name="event-date">
+
+        <p>Preferred Contact Method:</p>
+        <div class="radio-group">
+            <input type="radio" id="method-email" name="contact-method" value="email">
+            <label for="method-email">Email</label>
+            <input type="radio" id="method-phone" name="contact-method" value="phone">
+            <label for="method-phone">Phone</label>
+        </div>
+
+        <div class="checkbox-group">
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">Subscribe to our Blissful newsletter!</label>
+        </div>
+
+        <button type="submit" class="hero-btn">Send Message</button>
+    </form>
+</section>
+
+<section id="faq">
+    <h3>Frequently Asked Questions</h3>
+    <details>
+        <summary>Do you offer gluten-free options?</summary>
+        <p>Yes! We have a rotating selection of gluten-free cookies baked fresh every Tuesday.</p>
+    </details>
+    <details>
+        <summary>How far in advance should I order?</summary>
+        <p>For party packs, we recommend ordering at least 48 hours in advance.</p>
+    </details>
+</section>
+    </main>
+
+    <footer id="footer">
+    <nav class="footer-nav">
+        <a href="/">Home</a>
+        <a href="/products.html">Products</a>
+        <a href="/blog.html">Blog</a>
+        <a href="/pricing.html">Pricing</a>
+        <a href="/contact.html">Contact</a>
+    </nav>
+    <p class="copyright">&copy; 2026 Blissful Sweets.</p>
+</footer>
+</body>
+</html>
