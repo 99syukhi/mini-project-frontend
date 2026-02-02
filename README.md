@@ -21,8 +21,8 @@ This project incorporates all HTML/CSS modules required for the assignment:
 - `pricing.html` - Service Tiers
 - `contact.html` - Inquiry Form
 - `/css`
--     /main.css
--     /products.css
--     /blog.css
--     /pricing.css
--     /contact.css
+-     `/main.css`
+-     `/products.css`
+-     `/blog.css`
+-     `/pricing.css`
+-     `/contact.css`
